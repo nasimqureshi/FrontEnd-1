@@ -9,11 +9,16 @@
 <body>
     <h1>Enquiry</h1>
     <form>
-        Name: <input type="text">
+        Name: <input type="text" placeholder="Please enter you name">
         <br><br>
-        Address : <textarea></textarea>
+        Address : <textarea name="address"></textarea>
         <br><br>
-        Gender: <input type="radio">
+        Gender: <input type="radio" value="m" name="Gender">Male
+                <input type="radio" value="f" name="Gender">Female
+                <input type="radio" value="t" name="Gender">Trans Gender
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
     </form>
     
 </body>
