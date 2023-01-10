@@ -11,7 +11,8 @@
         <fieldset>
             <legend>HTML 5</legend>
             Name : 
-            <input type="text" name="name" required="" placeholder="Enter your name" autofocus=""/>
+            <input type="text" name="name" required="" placeholder="Enter your name" 
+            autofocus="" maxlength="15"/>
             <br><br>
             Color:
             <input type="color" name="color"  value="#ff0000"/>
@@ -24,6 +25,9 @@
             <br><br>
             age:
             <input type="number" name="age" min="1" max="30">
+            <br><br>
+            range:
+            <input type="range" name="range" min="0" max="100" value="95"/>
             <br><br>
             Secret:
             <input type="hidden" name="Secret">
